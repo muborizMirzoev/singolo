@@ -59,6 +59,11 @@ h3 {
     position: absolute;
     right: 251.5px;
 }
+.header_nav ul li:nth-child(3) {
+    position: absolute;
+    right: 155.5px; 
+}
+
 
 .header_nav ul li::after {
     content: "";
