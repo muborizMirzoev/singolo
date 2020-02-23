@@ -1,1 +1,1 @@
-# singolo
+# https://muborizMirzoev.github.io/singolo/
