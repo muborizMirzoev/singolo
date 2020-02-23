@@ -1,1 +1,1 @@
-# https://muborizMirzoev.github.io/singolo/
+# https://muborizmirzoev.github.io/singolo/singolo1.html
