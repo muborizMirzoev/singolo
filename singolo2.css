@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Lato Regular';
+}
+
+h1,
+h2,
+p,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    background-color: #2d303a;
+    padding-top: 66px;
+    padding-bottom: 46px;
+    border-bottom: 6px solid #323746;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+    color: #666d89;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-align: justify;
+    letter-spacing: 0.77px;
+}
+
+.portfolio p {
+    padding-top: 22px;
+    font-size: 18px;
+    color: #767e9e;
+    font-family: 'Lato';
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: -.2px;
+}
+
+.portfolio__nav {
+    margin-top: 14px;
+    margin-left: 1.6px;
+}
+
+
+button {
+    padding: 3px 6px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    color: #767e9e;
+    background-color: transparent;
+    border: 1px solid #767e9e;
+    border-radius: 5px;
+    margin-right: 7px;
+
+}
+
+button:hover {
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: default;
+}
+
+.portfolio__imeges {
+    padding-top: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.portfolio__img {
+    object-fit: cover;
+    width: 220px;
+    height: 187px;
+    margin-bottom: 20px;
+}
+
+/* about-us */
+
+.about-us {
+    background-color: #f2f2f2;
+
+}
+
+.about-us h2 {
+
+    padding-top: 60px;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 30px;
+    color: #666D89;
+    letter-spacing: 0.6px;
+}
+
+.about-us p {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #767e9e;
+    font-family: 'Lato';
+    font-weight: 300;
+    padding-bottom: 46px;
+    text-align: justify;
+    letter-spacing: -0.21px;
+    line-height: 28px;
+}
+
+.wrapper-3-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__employee {
+    width: 300px;
+}
+
+.about-us__employee h3 {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
+.about-us__employee .h3-fix {
+    letter-spacing: 1.2px; 
+}
